@@ -322,11 +322,28 @@ body {
 
 /* Portfolio */
 
+.filter-with-samples .list {
+  display: flex;
+}
+
 /* Fiter buttons */
 
+.site-filter {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.site-filter .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .site-filter .button {
+  padding: 6px 22px;
+  min-width: 73px;
   background-color: var(--tertiary-background-color);
   color: var(--secondary-text-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -343,6 +360,23 @@ body {
 }
 
 /* Work samples */
+.work-samples {
+  flex-wrap: wrap;
+}
+
+.work-samples .list-item {
+  width: calc((100% - 2 * 30px) / 3);
+  background-color: var(--white-color);
+  background-color: yellow;
+}
+
+.work-samples .list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.work-samples .list-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
 
 .work-samples .title {
   font-size: 18px;
@@ -351,12 +385,18 @@ body {
   text-align: left;
 }
 
-.work-samples .text {
-  line-height: 1.88;
+.test {
+  outline: 1px solid skyblue;
 }
 
-.work-samples .list-item {
-  background-color: var(--white-color);
+.work-samples .image {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid skyblue;
+}
+
+.work-samples .text {
+  line-height: 1.88;
 }
 
 /* Current page colorizing */
