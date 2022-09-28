@@ -22,6 +22,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Container */
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid slateblue;
+  background-color: yellowgreen;
+}
+
 /* For every element in lists */
 
 .list {
@@ -51,7 +61,18 @@ body {
 
 /* Header */
 
+.site-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .site-header .list {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,6 +85,10 @@ body {
 }
 
 .site-nav .link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: orangered;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
