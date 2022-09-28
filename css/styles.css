@@ -1,0 +1,237 @@
+/* Color palette */
+/* Main text color #757575 */
+/* Secondary text color #212121 */
+/* Accent #2196F3 */
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --secondary-background-color: #2f303a;
+  --tertiary-background-color: #f5f4fa;
+}
+
+/* Index */
+
+/* Body */
+
+body {
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* For every element in lists */
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.main-logo-header,
+.main-logo-footer {
+  color: var(--black-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.main-logo-footer {
+  color: var(--white-color);
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+/* Header */
+
+.site-header .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-header .link:hover,
+.site-header .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.site-contacts .link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--secondary-background-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* For every title */
+
+.title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Company characteristics section */
+
+.company-characteristics .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 0.03em;
+}
+
+.company-characteristics .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Company activities section */
+
+.company-activities .title {
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+}
+
+/* Company team section */
+
+.company-team {
+  background-color: var(--tertiary-background-color);
+}
+
+.company-team .main-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.company-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.company-team .text {
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.company-team .list-item {
+  background-color: var(--white-color);
+}
+
+/* Footer */
+
+.site-footer {
+  background-color: var(--secondary-background-color);
+}
+
+.company-address .link:hover,
+.company-address .link:focus {
+  color: var(--accent-color);
+}
+
+.company-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.company-address .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.company-address .address {
+  color: var(--white-color);
+}
+
+/* Portfolio */
+
+/* Fiter buttons */
+
+.site-filter .button {
+  background-color: var(--tertiary-background-color);
+  color: var(--secondary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.site-filter .button:hover,
+.site-filter .button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* Work samples */
+
+.work-samples .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.work-samples .text {
+  line-height: 1.88;
+}
+
+.work-samples .list-item {
+  background-color: var(--white-color);
+}
+
+/* Current page colorizing */
+
+.site-nav .current-page {
+  color: var(--accent-color);
+}
