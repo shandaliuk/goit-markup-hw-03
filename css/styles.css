@@ -379,20 +379,22 @@ body {
 }
 
 .work-samples .title {
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
 }
 
-.test {
-  outline: 1px solid skyblue;
+.text-item {
+  padding: 20px 24px;
+  outline: 1px solid salmon;
 }
 
 .work-samples .image {
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid skyblue;
+  outline: 1px solid salmon;
 }
 
 .work-samples .text {
